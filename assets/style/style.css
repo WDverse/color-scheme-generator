@@ -3,12 +3,8 @@ body{
 }
 
 
-.color-schemes{
+.color-schemes-container{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     height: 80vh;
-}
-
-.color-schemes > div {
-    border: 2px solid black;
 }
