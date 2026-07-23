@@ -1,10 +1,20 @@
 body{
-    margin: 0;
+    margin: 0px;
 }
 
 
 .color-schemes-container{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    height: 80vh;
+    height: 700px;
+}
+
+.hex-values{
+    display: flex;
+    height: 46px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+
 }
