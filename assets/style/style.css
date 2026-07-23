@@ -1,7 +1,42 @@
 body{
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+.selectors{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 15px 15px;
+}
+
+.seed-color{
+    width: 61px;
+    height: 42px;
+    border: 1px solid gray;
+}
+
+.color-schemes{
+    width: 400px;
+     height: 42px;
+     padding: 10px;
+     border: 1px solid rgb(214, 213, 213);
+    border-radius: 5px;
+}
+
+.get-color-btn{
+    cursor: pointer;
+    width: 133px;
+    height: 42;
+    background-color: white;
+    border: 1px solid rgb(214, 213, 213);
+    border-radius: 5px;
+}
+
+.get-color-btn:hover {
+    background-color: #1a1919;
+    color: white;
+}
 
 .color-schemes-container{
     display: grid;
